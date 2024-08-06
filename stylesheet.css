@@ -327,19 +327,25 @@ section{
     transform-origin: left;
 }
 .progress-line.html span{
-    width: 70%;
+    width: 60%;
 }
 .progress-line.CSS span{
-    width: 65%;
+    width: 55%;
 }
 .progress-line.AndroidDevelopment span{
-    width: 85%;
+    width: 75%;
 }
 .progress-line.Java span{
-    width: 90%;
+    width: 80%;
 }
 .progress-line.SQL span{
     width: 80%;
+}
+.progress-line.firebase span{
+    width: 70%;
+}
+.progress-line.gitHub span{
+    width: 85%;
 }
 .progress-line span::after{
     position: absolute;
@@ -354,19 +360,25 @@ section{
     opacity: 0;
 }
 .progress-line.html span::after{
-    content: "70%";
+    content: "60%";
 }
 .progress-line.CSS span::after{
-    content: "65%";
+    content: "55%";
 }
 .progress-line.AndroidDevelopment span::after{
-    content: "85%";
+    content: "75%";
 }
 .progress-line.Java span::after{
-    content: "90%";
+    content: "80%";
 }
 .progress-line.SQL span::after{
     content: "80%";
+}
+.progress-line.firebase span::after{
+    content: "70%";
+}
+.progress-line.gitHub span::after{
+    content: "85%";
 }
 .progress-line span::before{
     content: "";
