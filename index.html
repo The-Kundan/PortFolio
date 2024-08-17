@@ -7,7 +7,9 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
 </head>
 
 <body>
@@ -15,14 +17,19 @@
         <a href="#" class="logo">Portfolio</a>
         <nav class="navbar">
             <a href="#home" style="--i:1" class="active">Home</a>
-            <a href="#about" style="--i:2">About Me</a>
-            <a href="#services" style="--i:3">Services</a>
-            <a href="#skills" style="--i:4">Skills</a>
+            <a href="#services" style="--i:2">Services</a>
+            <a href="#skills" style="--i:3">Skills</a>
+            <a href="#project" style="--i:4">Projects</a>
             <a href="#contact" style="--i:5">Contact Me</a>
+            
         </nav>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
     </header>
     <section class="home">
         <div class="home-content">
+            <div>
             <h3>Hello, It's Me</h3>
             <h1>Kundan kumar</h1>
             <h3>And I'm a <span class="text"></span> </h3>
@@ -42,14 +49,18 @@
             </div>
             <!-- <a href="#" class="btn-box">More About Me</a> -->
         </div>
-
-
-
+        <div class="home-img">
+            <img src="img3.png" >
+        </div>
+    
+</div>
+    
         </div>
         <span class="home-imgHover"></span>
     </section>
 
     <section class="about" id="about">
+        <div class="about-content">
         <div class="about-img">
             <img src="img3.png">
         </div>
@@ -73,6 +84,7 @@
             <a href="https://drive.google.com/file/d/11KMH-ZRD4GXY4YMk68yvqt5eY-OntGRP/view?usp=sharing"
                 class="btn-box">Download My Resume</a>
         </div>
+    </div>
     </section>
     <section>
         <div class="services" id="services">
@@ -220,41 +232,60 @@
             <div class="main-text" id="project">
                 <h2>Latest<span> Project</span></h2>
                 <div class="portfolio-content">
-                    <div class="row">
-                        <img src="android.webp">
-                        <div class="layer">
+                    <div class="project-card">
+                        <img src="HealthCare.png" alt="HealthCare App">
+                        <div class="project-info">
+                            <div class="tags">
+                                <span>Java</span>
+                                <span>Android Studio</span>
+                            </div>
                             <h5>Android App Development</h5>
                             <p>Developed an android app for a client using Java and Android Studio.</p>
-
-                            <a href="#"><i class='bx bx-link-external' style="color:aliceblue">View Project</i></a>
+                            <div class="links">
+                                <a href="https://github.com/The-Kundan/HealthCare-Application">Source Code link</a>
+                                <a href="#" class="demo-link">Demo</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <img src="android.webp">
-                        <div class="layer">
+    
+                    <div class="project-card">
+                        <img src="android.webp" alt="Android App">
+                        <div class="project-info">
+                            <div class="tags">
+                                <span>Java</span>
+                                <span>Android Studio</span>
+                            </div>
                             <h5>Android App Development</h5>
                             <p>Developed an android app for a client using Java and Android Studio.</p>
-
-                            <a href="#"><i class='bx bx-link-external' style="color:aliceblue">View Project</i></a>
+                            <div class="links">
+                                <a href="#">View Project</a>
+                                <a href="#" class="demo-link">Demo</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <img src="interface.png">
-                        <div class="layer">
+    
+                    <div class="project-card">
+                        <img src="interface.png" alt="Image Encryption/Decryption">
+                        <div class="project-info">
+                            <div class="tags">
+                                <span>Java</span>
+                                <span>Swing</span>
+                            </div>
                             <h5>Image Encryption/Decryption</h5>
-                            <p>"This project is an image encryption and decryption tool implemented in Java using Swing
-                                for the GUI. It allows users to choose an image file, apply encryption or decryption
-                                using a key, and ensure that only encrypted files can be decrypted."</p>
-
-                            <a href="https://github.com/The-Kundan/Image_Encryption_And_Decryption/tree/master"><i
-                                    class='bx bx-link-external' style="color:aliceblue">Source Code link</i></a>
+                            <p>This project is an image encryption and decryption tool implemented in Java using Swing for the GUI.</p>
+                            <div class="links">
+                                <a href="https://github.com/The-Kundan/Image_Encryption_And_Decryption/tree/master">Source Code link</a>
+                                <a href="#" class="demo-link">Demo</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    
     <section class="contact" id="contact">
+        
         <div class="contact-text">
             <h2>Contact <span>Me</span></h2>
             <h4>Let's Work Together</h4>
@@ -290,6 +321,7 @@
                 <input type="submit" value="submit" class="send">
             </form>
         </div>
+    
     </section>
 
     <div class="last-text">
