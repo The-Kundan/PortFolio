@@ -185,8 +185,12 @@ body {
 
 .home-img img {
     height: auto;
-    max-width: 100%; 
+    max-width: auto; 
     border-radius: 50%;
+}
+.home-img img:hover{
+   transform: scale(1.1);
+   
 }
 
 .btn-box {
@@ -269,9 +273,12 @@ body {
 
 .about-img img {
     height: auto;
-    width: auto;
+    width: 100%;
     margin-right: 25px;
     border-radius: 50%;
+}
+.about-img img:hover{
+    transform: scale(1.6);
 }
 
 .about-text h2 {
