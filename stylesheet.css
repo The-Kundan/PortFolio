@@ -28,11 +28,14 @@ body {
 }
 
 .logo {
-    font-size: 25px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-    opacity: 1;
+   margin-left: 10px;
+}
+.logo img {
+    height: 20px; 
+    vertical-align: middle; 
+}
+.logo img:hover{
+    transform: scale(2.9);
 }
 
 .navbar {
