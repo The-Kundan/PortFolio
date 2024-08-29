@@ -30,13 +30,13 @@ body {
 .logo {
    margin-left: 10px;
 }
-/* .logo img {
+.logo img {
     height: 20px; 
     vertical-align: middle; 
 }
 .logo img:hover{
     transform: scale(2.9);
-} */
+}
 
 .navbar {
     display: flex;
